@@ -29,5 +29,4 @@ def word_substituter(str)
   end
 
   arr_2.join(" ")
-  
 end
