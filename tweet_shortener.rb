@@ -19,7 +19,7 @@ def word_substituter(str)
   arr_2 = []
   dict = dictionary
   keys = dict.keys
-  
+
   arr.each do |word|
     if keys.include? word
       arr_2 << dict[word]
@@ -29,4 +29,5 @@ def word_substituter(str)
   end
 
   arr_2.join(" ")
+  
 end
